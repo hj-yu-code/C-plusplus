@@ -17,22 +17,22 @@ public:
     
 
     int GetRedius(){  return redius;  }
-    double GetArea();
 };
-
-double Circle::GetArea(){
-    return redius*redius*3.15;
-}
 
 int main(){
     Circle donut; // 객체는 생성과 동시에 생성자 호출
 
     cout << "반지름 : " << donut.GetRedius() << endl;
-    // double area = donut.GetArea();
-    // cout << "면적 : " << donut.GetArea() << endl;
 
     Circle pizza(30);
     cout << "반지름 : " << pizza.GetRedius() << endl;
+    cout << "============================" << endl;
+
+    Circle c1;          // Circle()
+    Circle c2(1);       // Circle(int r)
+    Circle c3 = Circle(); // 생성자 명시적 호출, Circle()
+    Circle c4 = Circle(3); // Circle(int r)
+
 
     return 0;
 }
