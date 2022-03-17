@@ -15,7 +15,6 @@ public:
         redius = r;
     }
     
-
     int GetRedius(){  return redius;  }
 };
 
