@@ -35,6 +35,9 @@ default_parameter
 ---
 new_delete
 - 동적 메모리 할당 및 반환
+- 일반 변수 : delete [변수명]
+- 배열 변수 : delete[] [변수명]
+
 new_동적배열_반환
 
 new_문자열desc출력
