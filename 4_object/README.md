@@ -1,4 +1,4 @@
-# 4_dynamic
+# 4_object
 
 > 포인터
 >> class나 struct에 있는 매개변수 부를 때는 "->"로 부르기
@@ -33,5 +33,5 @@ this_pointer
     - 인자와 매개변수가 같다면 this로 구별 가능
 - &_x == _x의 this
 
-
 string_class_method
+- c++ string class의 여러 메소드 소개
