@@ -38,3 +38,15 @@ circle_생성자2
 
 circle_생성자3
 - 디폴트(기본) 생성자 : 선언되어 있지 않은 경우 자동으로 생성
+(3월 18일)
+circle_소멸자실행순서
+- 소멸자
+- 전역 및 로컬 객체 변수의 소멸 순서
+
+person_construct
+- 객제의 동적 메모리 소멸자
+
+person_construct_destruct
+- class 내의 멤버 변수 동적메모리 생성 및 소멸
+
+
