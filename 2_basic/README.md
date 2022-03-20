@@ -1,5 +1,10 @@
 # 2_basic
 3/16
+
+hello
+
+key_in
+
 c_string
 - c library 선언 방법
 - 간단한 cin, cout, 맴버 메서드(cin.getline) 나옴
@@ -7,6 +12,9 @@ c_string
 c++_string
 - string 자료형 : 크기 제한 없음
 - cin : 스페이스까지만 입력가능
+
+sale_판매금액
+
 ---
 c++_자료형
 - c와 같은 자료형 존재
@@ -14,18 +22,35 @@ c++_자료형
 
 c++_자료형_bool
 - c와 다르게 bool 자료형 존재
+
+positive_negative
+
+namespace_test
+
+NameSP_main.cpp & NameSP_Method.cpp & NameSP.h
+
+Array_함수전달
+
+pointer_const
+
+void_pointer
+
+sturct_pointer
+
+
 ---
 ref_참조자1, 2
 - 참조자의 특징들 나옴
 - 참조자의 사용 이유 : 함수 내에 할당하는 메모리를 줄여주기 위함
 
+ref_참조자_반환
+
 ref_포인터_참조
 - 포인터도 괄호쳐서 참조 가능
 ---
-pointer_const
-
----
 method_overloading
+
+method_overloading_데이터교환
 
 
 ---
