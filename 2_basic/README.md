@@ -1,5 +1,5 @@
 # 2_basic
-
+3/16
 c_string
 - c library 선언 방법
 - 간단한 cin, cout, 맴버 메서드(cin.getline) 나옴
@@ -23,9 +23,13 @@ ref_포인터_참조
 - 포인터도 괄호쳐서 참조 가능
 ---
 pointer_const
+
 ---
 method_overloading
 
+
+---
+3/17
 
 ---
 default_parameter
