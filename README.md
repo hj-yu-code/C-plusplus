@@ -68,7 +68,7 @@
 
 <br>
 
-# 6. 함수 중복과 static 멤버
+# 6. 함수 중복과 static 멤버 (fun_over_static)
 
 6.1 함수 중복
 
