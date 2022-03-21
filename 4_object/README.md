@@ -1,5 +1,6 @@
 # 4_object
 3/18
+
 > 포인터
 >> class나 struct에 있는 매개변수 부를 때는 "->"로 부르기
 
@@ -35,3 +36,11 @@ this_pointer
 
 string_class_method
 - c++ string class의 여러 메소드 소개
+
+---
+3/21
+
+NameCard
+- namespace활용(enum 함수)
+- class 맴버 변수 Array로 동적으로 할당
+- class 소멸 시 동적 맴버 변수 메모리 반환

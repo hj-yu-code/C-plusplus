@@ -62,6 +62,7 @@ int main(){
 
     delete p1;
     delete p2;
+    // p3는 stack에 있음
 
     Person per1;
     cout << "&per1 : " << &per1 << endl; // 5000
