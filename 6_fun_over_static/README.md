@@ -16,3 +16,13 @@ default_parameter_모호성
 - 1) default 매개 변수로 인한 모호성
 - 2) 형 변환으로 안한 모호성
 - 3) 참조 매개 변수로 인한 모호성
+
+---
+3/22
+default_parameter_vectorclass
+
+static_circle
+
+const_student
+
+const_상수객체
