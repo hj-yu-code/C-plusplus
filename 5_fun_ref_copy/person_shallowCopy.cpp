@@ -48,7 +48,7 @@ public:
         name = new char [strlen(_name)+ 1];
         strcpy(name, _name);
 
-        phone = new char [strlen(phone)+ 1];
+        phone = new char [strlen(_phone)+ 1];
         strcpy(phone, _phone);
 
         age = _age;
