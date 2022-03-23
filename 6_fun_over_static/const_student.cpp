@@ -1,10 +1,12 @@
 #include <iostream>
+#include <cstring>
 using namespace std;
 
 class Student
 {
 private:
 	const int id;
+	int num = 0;
 
 	char name[20];
 	char major[20];
@@ -20,22 +22,26 @@ public:
 		age = _age;
 	}
 
-	/*void showStudentIntro() // 일반메서드
-	{
-		cout << "== 학생정보 출력 ==" << endl;
-	}*/
+	// void showStudentIntro() // 일반메서드
+	// {
+	// 	cout << "== 학생정보 출력 ==" << endl;
+	// }
 
-	void showStudentIntro() const // 상수화된 메서드
+	void showStudentIntro() const // 상수화된 메서드(1)
 	{
 		cout << "== 학생정보 출력 ==" << endl;
 	}
 
-	void ShowData() const // 상수화된 메서드에서는 상수화된 메서드만 호출할 수 있다. 
+	void ShowData() const // 상수화된 메서드에서는 상수화된 메서드(1)만 호출가능
 	{
 		showStudentIntro();
 
-		age = 27; // 메서드는 상수화시켜두면 값 변경 불가능, mutable 변수명으로 선언하여 변경이 가능함.
-		//strcpy(name, "AAA") // 수정불가, mutable 선언 X
+		//mutable 변수명으로 선언한 맴버 수정 가능
+		age = 27; // 메서드는 상수화시켜두면 값 변경 불가능
+
+		// 일반 맴버 수정 불가
+		// strcpy(name, "AAA"); // 수정불가, mutable 선언 X
+		// num += 1;  // 수정불가, mutable 선언 X
 		cout << id << ", " << name << ", " << major << ", " << age << endl;
 	}
 
@@ -46,6 +52,9 @@ public:
 
 	const char* getName() const// 주소가 반환되면 const 불가능
 	{
+		return name;
+	}
+	char* gName() {
 		return name;
 	}
 };
@@ -60,6 +69,8 @@ int main()
 
 	const char* ptrName = st1.getName();
 	cout << "성명 : " << ptrName << endl;
+
+	cout << "성명2: " << st1.gName() << endl;
 
 	return 0;
 }

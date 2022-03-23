@@ -1,39 +1,32 @@
 #include <iostream>
-#include <vld.h>
 
 using namespace std;
 
-class MyVector
-{
+class MyVector {
 private:
 	int* p;
 	int size;
 public:
-	MyVector(int n = 10) // 디폴트 생성자를 생성하지 않아도 된다.
+	MyVector(int n = 10) // 디폴트 생성자 불필요
 	{
 		p = new int[n];
 		size = n;
 	}
 
-	~MyVector()
-	{
+	~MyVector()	{
 		delete[] p;
 	}
 
-	void MyVector_data()
-	{
-		for (int i = 0; i < size; i++)
-		{
+	void MyVector_data() {
+		for (int i = 0; i < size; i++)	{
 			*(p + i) = i + 1;
 		}
 	}
 
-	void MyVector_sum()
-	{
+	void MyVector_sum()	{
 		int sum = 0;
 
-		for (int i = 0; i < size; i++)
-		{
+		for (int i = 0; i < size; i++)	{
 			cout << *(p + i) << ", ";
 			sum += p[i];
 		}
@@ -41,8 +34,7 @@ public:
 	}
 };
 
-int main()
-{
+int main() {
 	MyVector* v1 = new MyVector();
 	MyVector* v2;
 	v2 = new MyVector(20);
