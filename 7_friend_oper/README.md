@@ -64,7 +64,8 @@ defaultEqual_operator
 
 person_deepCopy
 - '5_fun_ref_copy\person_shallowCopy.cpp' 가져옴
-- 디폴트 대입 연산자 사용
+- 디폴트 대입 연산자 선언
+- 복사 생성자 시 대입 연산자 사용하는 경우
 
 stringClass_operator_overloading
 - 확인해보기

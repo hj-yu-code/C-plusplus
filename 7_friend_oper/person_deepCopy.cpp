@@ -12,7 +12,7 @@ private:
 	int age;
 public:
     void ShowData();
-    Person() { // ??? ????? delete ??? null ???
+    Person() { // for delete destructor initialization
         name = NULL;
         phone = NULL;
     }
@@ -75,13 +75,13 @@ int main(){
     p2.ShowData();
     
     Person p3;
-    p3 = p1; // ??? ????? ????
+    p3 = p1; // deep copy
     p3.ShowData();
 
     cout << "========================" << endl;
 
     Person p4("LEE", "010-333-1234", 27);
-    p1 = p4; // ?? ??? ?? ?? -> ??? ??????? delete ??
+    p1 = p4; // making copy constructor -> in destructor, having delete
     p1.ShowData();
 
     return 0;
