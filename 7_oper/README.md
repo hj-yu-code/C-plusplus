@@ -1,4 +1,4 @@
-# 7
+# 7_friend_oper
 3/22
 friend_클래스_전역함수
 
@@ -19,3 +19,19 @@ operator_overloading_int
 
 operator_overloading2
 - 전위연산, 후위연산
+
+---
+3/23
+
+operator_overloading3
+
+defaultEqual_operator
+- 디폴트 대입 연산자
+
+
+person_deepCopy
+- '5_fun_ref_copy\person_shallowCopy.cpp' 가져옴
+- 디폴트 대입 연산자 사용
+
+stringClass_operator_overloading
+- 확인해보기
