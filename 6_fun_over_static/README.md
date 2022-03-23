@@ -22,6 +22,7 @@ default_parameter_모호성
 default_parameter_vectorclass
 - 생성자 함수의 중복 간소화(default 매개 변수 사용)
 
+---
 static_circle
 - 동적변수
     - 객체마다 생성
@@ -35,6 +36,7 @@ static_circle
     - 정적 변수만 접근 가능
     - 일반 맴버에는 접근 불가능
 
+---
 const_student
 - 상수화된 매서드 : [자료형] [함수명]() const {}
 - 상수화된 매서드는 상수화된 매서드만 호출 가능
