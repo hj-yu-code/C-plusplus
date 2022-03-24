@@ -36,5 +36,33 @@ overriding_intro
     - 기반 클래스에 선언된 멤버와 같은 형태의 멤버를 파생 클래스에서 선언
     - 오버라이딩한 파생 클래스 매서드를 호출
     - 기반 클래스 매서드를 가리는 효과
-        - 명시적으로 호출 가능
+        - 범위연산자(::)로 명시적으로 호출 가능
         - [파생 클래스].[기반 클래스]::[매서드]();
+
+3/24
+person_overriding
+- 명시적 접근 사용
+
+---
+overriding_vitual_intro
+- 가상함수
+- 안되는 이유 확인하기!!!!
+
+calc_class
+- 다향성 : 같은 함수를 다르게 사용
+- virtual로 overriding 진행
+
+순수가상함수_overriding
+
+
+shape_overriding
+
+employeeCalc
+
+상속에서_소멸자
+
+다중상속_intro
+- 기반 클래스에 같은 함수가 있으면 모호성 발생
+- 범위연산자로 기반 클래스 함수 호출
+
+다중상속모호성_virtual

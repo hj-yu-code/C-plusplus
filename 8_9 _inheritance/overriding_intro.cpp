@@ -1,11 +1,11 @@
+#include <iostream>
+using namespace std;
 
 /*
 매서드 오버라이딩(Overriding) : 함수 재정의(-> 다향성)
 매서드 오버로딩(Overloading) : 함수 중복정의
 */
 
-#include <iostream>
-using namespace std;
 
 class AAA {
 public:
