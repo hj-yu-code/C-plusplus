@@ -26,9 +26,8 @@ namespace myStd {
         }
     };
     ostream cout; // ostream °´Ã¼ cout »ý¼º
-
-
 }
+
 using namespace myStd;
 int main() {
     cout << "hello world" << endl;
