@@ -1,4 +1,4 @@
-# 3_fun_over_static
+# 6_fun_over_static
 3/21
 sum_overloading
 - 함수 overloading (int, int 배열)

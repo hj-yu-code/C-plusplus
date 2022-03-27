@@ -1,4 +1,4 @@
-# 8_9 _inheritance
+# 8_9_inheritance
 
 3/23
 color_point_inheritance
