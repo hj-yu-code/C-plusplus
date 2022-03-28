@@ -96,7 +96,7 @@
 
 <br>
 
-# [8. 상속 (inheritance)](8_9 _inheritance)
+# [8. 상속 (inheritance)](8_9_inheritance)
 
 8.1 상속의 개념
 
@@ -116,7 +116,7 @@
 
 <br>
 
-# [9. 가상 함수와 추상 클래스 (inheritance)]{8_9 _inheritance}
+# [9. 가상 함수와 추상 클래스 (inheritance)](8_9_inheritance)
 
 9.1 상속 관계에서의 함수 재정의
 
