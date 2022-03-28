@@ -24,6 +24,10 @@ template_함수_sizeof
 - 자료형 크기 구하기
     - sizeof([변수])
     - strlen([문자열])
+- 템플릿 특수화
+    - 해당 자료형을 만날 때 method overloading
+    - template<>
+    - 요즘은 잘 안쓰임
 
 template_함수_add
 - template 함수와 일반 함수의 method overloading
