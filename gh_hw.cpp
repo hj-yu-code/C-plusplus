@@ -2,7 +2,6 @@
 
 // #include "vld.h"
 #include <iostream>
-#include <string>
 #include <cstring>
 #include <fstream>
 
@@ -137,9 +136,9 @@ int EmployeeHandler::Save_Emp()
 	fout.write((char*)&empNum, sizeof(int));
 	for (int i = 0; i < empNum; i++) {
 		_names = (*empList[i]).getNames();
-		fout.write((char*)_names, 20);
+		fout.write(_names, 20);
 		_addr = (*empList[i]).getAddr();
-		fout.write((char*)_addr, 50);
+		fout.write(_addr, 50);
 		_salary = (*empList[i]).getSalary();
 		fout.write((char*)&_salary, 4);
 	}
@@ -147,7 +146,6 @@ int EmployeeHandler::Save_Emp()
 	fout.close();
 
 	cout << "emps.dat 저장" << endl;
-	return 0;
 }	//emp_save() end
 
 void EmployeeHandler::Load_Emp()
@@ -165,8 +163,8 @@ void EmployeeHandler::Load_Emp()
 	fin.read((char*)&empNum, sizeof(int));
 
 	for (int i = 0; i < empNum; i++) {
-		fin.read((char*)names, sizeof(names));
-		fin.read((char*)comAddr, sizeof(comAddr));
+		fin.read(names, sizeof(names));
+		fin.read(comAddr, sizeof(comAddr));
 		fin.read((char*)&salary, sizeof(int));
 
 		empList[i] = new Employee;
@@ -185,7 +183,7 @@ int main()
 
 	EmployeeHandler handler;
 
-	// handler.Load_Emp();		//사원정보 메모리 적재 - 시작할때 파일에서 불러옴
+	handler.Load_Emp();		//사원정보 메모리 적재 - 시작할때 파일에서 불러옴
 
 	while (stop)
 	{
