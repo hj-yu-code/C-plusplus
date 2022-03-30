@@ -37,3 +37,5 @@ stl_array
 Cplusplus_auto
 
 Cplusplus_auto2
+
+lambda
