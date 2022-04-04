@@ -2,7 +2,7 @@
 #include <iostream>
 #include <cstring>
 #include<fstream>
-#include<vld.h>
+// #include<vld.h>
 
 using namespace std;
 #define EMP_SZ 30
