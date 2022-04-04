@@ -1,4 +1,4 @@
-#include "vld.h"
+// #include "vld.h"
 #include <iostream>
 #include <cstring>
 #include <fstream>
@@ -146,6 +146,7 @@ int EmployeeHandler::Save_Emp()
 	fout.close();
 
 	cout << "emps.dat ÀúÀå" << endl;
+	return 0;
 }	//emp_save() end
 
 void EmployeeHandler::Load_Emp()

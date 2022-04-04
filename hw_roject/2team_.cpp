@@ -2,7 +2,7 @@
 #include <iostream>
 #include <cstring>
 #include<fstream>
-#include<vld.h>
+// #include<vld.h>
 
 using namespace std;
 #define EMP_SZ 30
@@ -215,7 +215,7 @@ int main()
 		case 5:stop = 0;
 			break;
 		}
-		//while (getchar() != '\n');
+		while (getchar() != '\n');
 	}//while(1)
 
 
