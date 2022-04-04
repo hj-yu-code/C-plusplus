@@ -215,7 +215,7 @@ int main()
 		case 5:stop = 0;
 			break;
 		}
-		//while (getchar() != '\n');
+		while (getchar() != '\n');
 	}//while(1)
 
 
